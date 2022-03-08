@@ -13,8 +13,8 @@ https://user-images.githubusercontent.com/56875618/157258272-92bb4844-8f42-4484-
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/rest-countries-api-app-with-dark-mode-Z3a9MtFEd)
+- [Live Site URL](https://where-in-the-world-nine.vercel.app/)
 
 ### Built with
 
