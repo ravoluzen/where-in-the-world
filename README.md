@@ -7,9 +7,9 @@ This is a solution to the [REST Countries API with color theme switcher challeng
 - Dark Mode, Search for a country and Filter by Region.
 - Responsive
 
-### Screenshot
 
-[Video-Walkthrough](./video-walkthrough.mp4)
+https://user-images.githubusercontent.com/56875618/157258272-92bb4844-8f42-4484-bf06-78843ff84fdb.mp4
+
 
 ### Links
 
