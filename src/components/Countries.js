@@ -69,7 +69,7 @@ const Countries = () => {
 
                     <article className="bg-white rounded shadow p-5 dark:bg-slate-700 w-auto h-80" >
 
-                        <img src={flag} alt="Country Flag" className='w-full h-40 object-fill'></img>
+                        <img src={flag} alt="Country Flag" className='w-full h-40 object-cover'></img>
 
                         <h2 className='font-bold text-gray-900 dark:text-white mt-5'>{name}</h2>
 
