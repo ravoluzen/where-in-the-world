@@ -38,20 +38,19 @@ const Countries = () => {
 
 
     const filterCountries = (filterParameter) => {
-        
-        setInputValue(filterParameter)
-
-        if(inputValue) {
-            const filterCountryData = countries.filter((country) => (
-                Object.values(country.region).join("").toLowerCase().includes(inputValue.toLowerCase())
-            ))
-            setFilteredCountries(filterCountryData)
-
-        }else{
-            setFilteredCountries(countries)
+        setInputValue(filterParameter);
+    
+        if (filterParameter) {
+          const filterCountryData = countries.filter(
+            (country) =>
+              country.region.toLowerCase() === filterParameter.toLowerCase()
+          );
+    
+          setFilteredCountries(filterCountryData);
+        } else {
+          setFilteredCountries(countries);
         }
-        
-    }
+      };
 
 
     return (
