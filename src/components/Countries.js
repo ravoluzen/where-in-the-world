@@ -54,7 +54,7 @@ const Countries = () => {
 
 
     return (
-        <div className='bg-slate-100 dark:bg-slate-800 h-screen'>
+        <div className='bg-slate-100 dark:bg-slate-800 h-full'>
           {isLoading ? <h1 className='flex items-center justify-center font-bold text-4xl h-screen dark:text-white'>Loading...</h1> : (
           <>
           <SearchFilter searchCountries={searchCountries} filterCountries={filterCountries}
