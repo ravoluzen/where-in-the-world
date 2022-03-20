@@ -61,7 +61,7 @@ const Countries = () => {
           />
           { inputValue.length > 0 ? 
 
-                <section className='h-full items-center pt-16 grid grid-cols-4 justify-between gap-5 gap-x-28 p-5 md:grid-cols-2 lg:grid-cols-4 sm:grid-cols-2 ss:grid-cols-1 xs:grid-cols-1 bg-slate-100 dark:bg-slate-800 border-none leading-relaxed'>
+                <section className='h-full items-center pt-16 grid grid-cols-1 justify-between gap-5 gap-x-28 p-5 xl:grid-cols-4 sm:grid-cols-2 bg-slate-100 dark:bg-slate-800 border-none leading-relaxed'>
 
                 {filteredCountries.map(({ name, capital, region, population, flag }) => (
 
@@ -85,7 +85,7 @@ const Countries = () => {
                 ))}
                 </section>
                 :
-                <section className='h-full items-center pt-16 grid grid-cols-4 justify-between gap-5 gap-x-28 p-5 md:grid-cols-2 lg:grid-cols-4 sm:grid-cols-2 ss:grid-cols-1 xs:grid-cols-1 bg-slate-100 dark:bg-slate-800 border-none leading-relaxed'>
+                <section className='h-full items-center pt-16 grid grid-cols-1 justify-between gap-5 gap-x-28 p-5 xl:grid-cols-4 sm:grid-cols-2 bg-slate-100 dark:bg-slate-800 border-none leading-relaxed'>
 
                 {countries.map(({ name, capital, region, population, flag }) => (
 
